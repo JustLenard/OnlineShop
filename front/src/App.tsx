@@ -1,17 +1,24 @@
 import React from 'react'
-import './App.css'
-import Button from './components/Button'
-import S from './components/S'
+import Footer from './components/layout/Footer'
+import Navbar from './components/layout/Navbar'
+import styled from 'styled-components'
+import ProductDisplay from './pages/ProductDisplay'
 
 const App = () => {
-	return (
-		<div className="App">
-			<div>Heyo</div>
-			<div>Heyo</div>
+	function calculate(elem: number): number {
+		return 3
+	}
 
-			<Button text="prop" />
-			<S text={'This is the the super secret message'} />
-		</div>
+	const Container = styled.div`
+		margin: 0 5rem;
+	`
+
+	return (
+		<Container>
+			<Navbar></Navbar>
+			<ProductDisplay></ProductDisplay>
+			<Footer></Footer>
+		</Container>
 	)
 }
 
