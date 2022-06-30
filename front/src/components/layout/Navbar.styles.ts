@@ -1,8 +1,10 @@
 import styled from 'styled-components'
+import { sizes } from '../../utils/breakpoints'
 
 export const NavbarContainer = styled.nav`
 	min-height: 3rem;
 	background: blue;
+	width: 100%;
 
 	display: flex;
 	justify-content: space-between;
