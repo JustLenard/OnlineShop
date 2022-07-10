@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { sizes } from '../../utils/breakpoints'
+import { sizes } from '../../../utils/breakpoints'
 
 export const NavbarContainer = styled.nav`
 	min-height: 3rem;

@@ -5,7 +5,7 @@ import {
 	LogoContainer,
 	Categories,
 	Cell,
-} from './Navbar.styles'
+} from './styles/Navbar.styles'
 // import { Navbar } from './Navbar.styles'
 
 interface Props {}
