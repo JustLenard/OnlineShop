@@ -7,10 +7,11 @@ import {
 	Cell,
 } from './styles/Navbar.styles'
 // import { Navbar } from './Navbar.styles'
+// import Navbar from './navbarComponents/Navbar'
 
 interface Props {}
 
-const Navbar: React.FC<Props> = ({}) => {
+const MainNavbar: React.FC<Props> = ({}) => {
 	return (
 		<NavbarContainer>
 			<Categories>
@@ -27,4 +28,4 @@ const Navbar: React.FC<Props> = ({}) => {
 	)
 }
 
-export default Navbar
+export default MainNavbar

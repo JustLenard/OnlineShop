@@ -1,14 +1,15 @@
 import React from 'react'
 import Footer from './Footer'
-import Navbar from './Navbar'
+import MainNavbar from './Navbar'
+import { Navbar } from '../navbarComponents'
 
 interface Props {}
 
 const Layout: React.FC<Props> = (props: Props) => {
 	return (
 		<>
-			<Navbar />
-			<div>WHyyyy</div>
+			<MainNavbar />
+			{/* <div>{...children}</div> */}
 			<Footer />
 		</>
 	)

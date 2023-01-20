@@ -1,17 +1,14 @@
-import React from 'react'
-import { Route, BrowserRouter, Routes } from 'react-router-dom'
-import ProductDisplay from '../pages/ProductDisplay'
-interface Props {}
+// import { ProductDisplayPage } from '../pages'
+import ProductDisplayPage from '../pages/ProductDisplayPage'
 
-const Routing: React.FC<Props> = () => {
-	return (
-		<BrowserRouter>
-			<Routes>
-				{/* <Route path="/" strict element={<h1>Home</h1>} /> */}
-				<Route path="/" element={<ProductDisplay />} />
-			</Routes>
-		</BrowserRouter>
-	)
+export const paths = {
+	productDisplayPage: '/',
 }
 
-export default Routing
+export const routes = [
+	{
+		strick: true,
+		path: paths.productDisplayPage,
+		element: <ProductDisplayPage />,
+	},
+]

@@ -5,7 +5,7 @@ import { CardsHolder, CategoryName } from './PrductsDisplay.styles'
 
 interface Props {}
 
-const ProductDisplay: React.FC<Props> = ({}) => {
+const ProductDisplayPage: React.FC<Props> = ({}) => {
 	const mockCard = {}
 
 	return (
@@ -26,4 +26,4 @@ const ProductDisplay: React.FC<Props> = ({}) => {
 	)
 }
 
-export default ProductDisplay
+export default ProductDisplayPage
